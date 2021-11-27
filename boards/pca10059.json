@@ -1,0 +1,72 @@
+{
+  "build": {
+    "core": "nRF5",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DNRF52840 -DNRF52840_XXAA -DNRF52840_PCA10059",
+    "f_cpu": "64000000L",
+    "ldscript": "nrf52840_s140_v6.ld",
+    "mcu": "nrf52840",
+    "variant": "pca10059",
+    "usb_product": "nRF52840 DK",	
+    "hwids": [
+      [
+        "0x239A",
+        "0x803F"
+      ],
+      [
+        "0x239A",
+        "0x003F"
+      ],
+      [
+        "0x239A",
+        "0x0040"
+      ],
+      [
+        "0x239A",
+        "0x8040"
+      ]
+    ],	
+    "bsp": {
+       "name": "adafruit"
+    },
+    "softdevice": {
+      "sd_flags": "-DS140",
+      "sd_name": "s140",
+      "sd_version": "6.1.1",
+      "sd_fwid": "0x00B6"
+    },
+    "bootloader": {
+      "settings_addr": "0xFF000"
+    }
+  },
+  "connectivity": [
+    "bluetooth"
+  ],
+  "debug": {
+    "jlink_device": "nRF52840_xxAA",
+    "svd_path": "nrf52840.svd",
+    "default_tools": [
+      "openocd",
+      "jlink",
+      "blackmagic"
+    ]
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "NRF52840 Dongle (PCA10059)",
+  "upload": {
+    "maximum_ram_size": 262144,
+    "maximum_size": 1048576,
+    "protocol": "jlink",
+    "protocols": [
+      "jlink",
+      "nrfjprog",
+      "stlink",
+      "blackmagic"
+    ]
+  },
+  "url": "https://www.nordicsemi.com/eng/Products/nRF52840-Dongle",
+  "vendor": "Nordic Semiconductor"
+}
+
