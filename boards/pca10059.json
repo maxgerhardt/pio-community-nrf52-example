@@ -11,7 +11,7 @@
     "hwids": [
       [
         "0x239A",
-        "0x803F"
+        "0x8029"
       ],
       [
         "0x239A",
@@ -56,8 +56,8 @@
   ],
   "name": "NRF52840 Dongle (PCA10059)",
   "upload": {
-    "maximum_ram_size": 262144,
-    "maximum_size": 1048576,
+    "maximum_ram_size": 237568,
+    "maximum_size": 815104,
     "protocol": "nrfutil",
     "protocols": [
       "nrfutil",
