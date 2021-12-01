@@ -71,7 +71,7 @@
     "require_upload_port": true,
     "wait_for_upload_port": true
   },
-  "url": "https://www.nordicsemi.com/eng/Products/nRF52840-Dongle",
+  "url": "https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle",
   "vendor": "Nordic Semiconductor"
 }
 
